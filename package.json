@@ -1,6 +1,6 @@
 {
-  "name": "prevue",
-  "version": "0.1.0",
+  "name": "pre-vue",
+  "version": "0.1.1",
   "keywords": [
     "slideshow"
   ],
@@ -38,12 +38,5 @@
     "rollup-plugin-vue": "^4.1.4",
     "vue-template-compiler": "^2.5.16"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pawelnvk/prevue.git"
-  },
-  "bugs": {
-    "url": "https://github.com/pawelnvk/prevue/issues"
-  },
-  "homepage": "https://github.com/pawelnvk/prevue#readme"
+  "repository": "git@github.com:pawelnvk/pre-vue.git"
 }

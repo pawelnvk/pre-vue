@@ -18,7 +18,7 @@ export default {
   output: {
     file: 'dist/bundle.js',
     format: 'umd',
-    name: 'Prevue',
+    name: 'PreVue',
   },
   external: ['vue-highlightj'],
 };
