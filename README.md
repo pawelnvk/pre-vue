@@ -19,7 +19,7 @@ export default {
 </script>
 ```
 
-###`CodeSlide`
+### `CodeSlide`
 ```vue
 <template>
   <code-slide :code="code">
@@ -41,7 +41,7 @@ export default {
 </script>
 ```
 
-###`IntroSlide`
+### `IntroSlide`
 ```vue
 <template>
   <IntroSlide 
@@ -59,7 +59,7 @@ export default {
 </script>
 ```
 
-###`TitleSlide`
+### `TitleSlide`
 ```vue
 <template>
   <title-slide title="Some title"/>
@@ -72,7 +72,7 @@ export default {
 </script>
 ```
 
-###`CodePreview`
+### `CodePreview`
 ```vue
 <template>
   <div>
@@ -104,7 +104,7 @@ export default {
 </script>
 ```
 
-###`Background`
+### `Background`
 ```vue
 <template>
   <background accent="green" />
@@ -117,7 +117,7 @@ export default {
 </script>
 ```
 
-###`Avatar`
+### `Avatar`
 ```vue
 <template>
   <avatar url="http://thecatapi.com/api/images/get?format=src&type=jpg" />
@@ -130,7 +130,7 @@ export default {
 </script>
 ```
 
-###`AppButton`
+### `AppButton`
 ```vue
 <template>
   <app-button @click="toggle">Toggle</app-button>
