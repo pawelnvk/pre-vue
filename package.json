@@ -4,12 +4,16 @@
   "keywords": [
     "slideshow"
   ],
+  "files": [
+    "dist"
+  ],
   "description": "Library helpful when creating slideshow with predefined theme.",
-  "main": "src/main.js",
+  "main": "dist/bundle.js",
   "author": "Paweł Nowak",
   "license": "MIT",
   "scripts": {
     "build": "rollup --config rollup.config.prod.js",
+    "prepublish": "yarn build",
     "start": "rollup --watch --config rollup.config.dev.js"
   },
   "dependencies": {
