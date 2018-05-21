@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prevue</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="//cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="bundle.js"></script>
+  <script>
+    Vue.use(Prevue);
+
+    new Vue({
+      el: '#app',
+      template: `
+        <div>
+          <IntroSlide imageUrl="http://thecatapi.com/api/images/get?format=src&type=jpg" fullName="John Smith" title="How to do?"></IntroSlide>
+          <TitleSlide title="Example title slide"></TitleSlide>
+        </div>
+      `,
+    });
+  </script>
+</body>
+</html>

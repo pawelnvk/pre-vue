@@ -1,0 +1,37 @@
+{
+  "name": "prevue",
+  "version": "0.1.0",
+  "keywords": [
+    "slideshow"
+  ],
+  "description": "Library helpful when creating slideshow with predefined theme.",
+  "main": "src/main.js",
+  "author": "Paweł Nowak",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config rollup.config.prod.js",
+    "start": "rollup --watch --config rollup.config.dev.js"
+  },
+  "dependencies": {
+    "vue-highlightjs": "^1.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-vue": "^4.5.0",
+    "node-sass": "^4.9.0",
+    "normalize-scss": "^7.0.1",
+    "rollup-plugin-alias": "^1.4.0",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-livereload": "^0.6.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-scss": "^0.4.0",
+    "rollup-plugin-serve": "^0.4.2",
+    "rollup-plugin-uglify": "^4.0.0",
+    "rollup-plugin-vue": "^4.1.4",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
